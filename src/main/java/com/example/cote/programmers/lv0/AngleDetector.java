@@ -1,9 +1,9 @@
-package com.example.cote.programmers;
+package com.example.cote.programmers.lv0;
 
 public class AngleDetector {
 
     public int detect(int angle) {
-        return 1;
+        return angle;
     }
 
 }

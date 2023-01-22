@@ -8,7 +8,7 @@ public class StackV2 {
     // TODO: 저장 공간 (만 있어도 되나...?) 정모르겠으면 2)자바 Stack 들어가서 구경해보기 근데 진짜진짜 모르겠으면 그 때 3)수도(psuedo)코드 찾아보고 하기 (자바 코드로는 찾지 마셈 ㅋ)
 
 
-    List stackV2SavingSystem = new LinkedList();
+    LinkedList stackV2SavingSystem = new LinkedList();
 
     public static void main(String[] args) {
         List stackV2SavingSystemInPSVM = new LinkedList();
@@ -37,7 +37,7 @@ public class StackV2 {
     public int pop() {
         // TODO: 선입후출
 
-        if ((int)stackV2SavingSystem.get(0) == 0) {
+        if ((int) stackV2SavingSystem.get(0) == 0) {
             throw new NoSuchElementException();
         }
         int pop = (int) stackV2SavingSystem.get(0);
@@ -52,9 +52,11 @@ public class StackV2 {
 
         int stackSize = 0;
 
-//       while (stackV2SavingSystem.isEmpty()) {
-//           stackSize++;
-//       }
+        // 아이디어o / 구현x
+        while (stackV2SavingSystem.isEmpty()) {  // inEmpty() -> LinkedList의 메서드 / ㅁ ㅁ ㅁ ㅁ ㅁ ㅁ / ?? index로 접근이 되지 않는다..?! 근데 가능?
+//            stackV2SavingSystem
+            stackSize++;
+        }
 
         return stackSize;
     }

@@ -1,7 +1,7 @@
-package com.example.cote.programmers;
+package com.example.cote.programmers.lv0;
 
+import com.example.cote.programmers.lv0.AngleDetector;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

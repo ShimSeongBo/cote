@@ -1,5 +1,6 @@
-package com.example.cote.programmers;
+package com.example.cote.programmers.lv0;
 
+import com.example.cote.programmers.lv0.LambAndServiceDrink;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
