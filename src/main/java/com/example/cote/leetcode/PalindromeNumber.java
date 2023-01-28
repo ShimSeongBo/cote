@@ -13,12 +13,21 @@ public class PalindromeNumber {
         int reverse = 0;
         int copy = x;
 
+        /**
+         * Debug모드로 동작 확인해봄.  굉장하네
+         */
         while (copy > 0) {
             int digit = copy % 10;
             reverse = reverse * 10 + digit;
             copy /= 10;
         }
-
         return reverse == x;
+    }
+
+    public static void main(String[] args) {
+        PalindromeNumber p = new PalindromeNumber();
+
+        System.out.println(p.isPalindrome(11211));
+
     }
 }

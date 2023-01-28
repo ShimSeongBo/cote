@@ -9,9 +9,10 @@ class IceAmericanoTest {
 
     @Test
     void case1() {
-        int[] solution = iceAmericano.solution(5500);
 
-//        assertEquals(new int[] {1,0}, solution);
+        int[] solution = iceAmericano.solution(5500);
+//        int[] input = {1, 0};
+//        assertEquals(input, solution);
     }
 
     @Test
